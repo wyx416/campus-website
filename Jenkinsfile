@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         GIT_REPO = "https://github.com/school-campus/website.git"  // 代码仓库
-        DEPLOY_IP = "192.168.1.100"         // 目标服务器IP
+        DEPLOY_IP = "192.168.61.40"         // 目标服务器IP
         WEB_DIR = "/var/www/html"           // 网站目录
         SSH_CREDENTIALS = "server-ssh-key"  // SSH密钥凭据ID
     }
